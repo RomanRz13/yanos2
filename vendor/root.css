@@ -1,0 +1,16 @@
+:root {
+  --main-font: Jost-italic;
+
+  --m-font-size: 1.5em;
+  --t-font-size: 3.5em;
+  --mob-font-size: 0.8em;
+
+  --text-gradient: linear-gradient(180deg, #fff, #adadad);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: solid green 4px; */
+
+}

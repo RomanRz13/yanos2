@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/flame-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Yanos</title>
+</head>
+
+<body class="page">
+    <header class="header page__header">
+        <div class="header__nav-box">
+            <div class="header__nav-icon" onclick="body.classList.toggle('header__nav-open')">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <a href="#" class="header__nav-item">Информация</a>
+                <a href="#" class="header__nav-item">Главная</a>
+                <a href="#" class="header__nav-item">Контакты</a>
+            </nav>
+        </div>
+        <div class="header__box">
+            <div class="header__logo" href="главная страница"> <img class="logo__image" src="./img/main-logo.svg"
+                    alt="slavneft-logo" </div>
+            </div>
+    </header>
+    <main class="content page_content">
+        <section class="form__invoice">
+            <div class="send__form-box">
+                <h2 class="send__form-title">Форма проверки накладных</h2>
+            </div>
+            <div class="form-box">
+                <form action="" name="FormFill" onsubmit="return validation()">
+                    <p id="result"></p>
+                    <div class="input-box">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" name="UserName" placeholder="текстово-цифровая строка">
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="email" name="Email" placeholder="второая текстово-цифровая строка">
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-phone'></i>
+                        <input type="tel" id="PhoneNumber" name="PhoneNumber" placeholder="только цифровая строка">
+                        <!-- onkeypress="return event.charCode >= 48 && event.charCode <= 57"> -->
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-message-dots'></i>
+                        <textarea id="comment" name="comment" class="styled-textarea"
+                            placeholder="поле свободного ввода"></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="submit" onclick="validation(event)" class="btn" value="Проверить">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer page__footer">
+        <div class="footer__box">
+            <div class="footer__logo"></div>
+        </div>
+    </footer>
+</body>
+
+</html>

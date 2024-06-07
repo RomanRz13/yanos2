@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts__inter/Inter-Regular.woff2") format("woff2"),
+    url("./fonts__inter/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter700';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts__inter/Inter-Bold.woff2") format("woff2"),
+    url("./fonts__inter/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts__inter/Inter-Black.woff2") format("woff2"),
+    url("./fonts__inter/Inter-Black.woff") format("woff");
+}
+
+ @font-face{
+  font-family: 'Martel';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts__Martel_Sans/MartelSans-Regular.woff2") format("woff2"),
+  url("./fonts__Martel_Sans/MartelSans-Regular.woff") format("woff");
+}
+
+@font-face {
+	src: url('./Pacifico/Pacifico-Regular.ttf');
+	font-family: 'pacifico';
+  
+}
+@font-face {
+  src: url("./Amatic_SC/AmaticSC-Regular.ttf"); 
+  font-weight: 400;
+  font-family: 'amatic';
+
+}
+@font-face {
+    src: url("./Amatic_SC/AmaticSC-Bold.ttf"); 
+    font-weight: 700;
+    font-family: 'amatic-bold';
+  }
+
+  @font-face {
+    src: url("./Manrope/Manrope-Medium.ttf"); 
+    font-weight: 500;
+    font-family: 'manrope';
+  }
+
+  @font-face {
+    src: url("./M_PLUS_1p/MPLUS1p-Medium.ttf"); 
+    font-weight: 500;
+    font-family: 'm1';
+  }
+
+  @font-face {
+    src: url("./Oswald/Oswald-Light.ttf"); 
+    font-weight: 300;
+    font-family: 'oswald';
+  }
+
+  @font-face {
+    src: url("./Oswald/Oswald-Regular.ttf"); 
+    font-weight: 400;
+    font-family: 'oswald_regular';
+  }
+
+  @font-face {
+    src: url("./Jost/Jost-Italic-VariableFont_wght.ttf"); 
+    font-weight: 400;
+    font-family: 'Jost-italic';
+  }
+
+
+  @font-face {
+    src: url("./Jost/static/Jost-ExtraLight.ttf"); 
+    font-weight: 400;
+    font-family: 'jost';
+  }
+
+  @font-face {
+    src: url("./Jost/static/Jost-Regular.ttf"); 
+    font-weight: 400;
+    font-family: 'jost-regular';
+  }
+
+  
+  @font-face {
+    src: url("./Roboto/Roboto-Italic.ttf"); 
+    font-weight: 400;
+    font-family: 'Roboto';
+  }
+
+  @font-face {
+    src: url("./Roboto_Flex/static/RobotoFlex-Regular.ttf"); 
+    font-weight: 400;
+    font-family: 'Roboto-flex';
+  }
